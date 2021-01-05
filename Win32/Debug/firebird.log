@@ -134,3 +134,11 @@ BYSASNET	Tue Jan 05 20:01:50 2021
 	E:\Projects\github\example-vcl-login\Win32\Debug\ib_util.dll library has not been found
 	ib_util.dll library has not been found
 
+
+BYSASNET	Tue Jan 05 20:35:48 2021
+	ib_util init failed, UDFs can't be used - looks like firebird misconfigured
+	
+	E:\Projects\github\example-vcl-login\Win32\Debug\bin/ib_util.dll library has not been found
+	E:\Projects\github\example-vcl-login\Win32\Debug\ib_util.dll library has not been found
+	ib_util.dll library has not been found
+
