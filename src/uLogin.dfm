@@ -1,0 +1,117 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  Caption = 'System Login'
+  ClientHeight = 373
+  ClientWidth = 299
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  Visible = True
+  OnClose = FormClose
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlLogo: TPanel
+    Left = 0
+    Top = 0
+    Width = 299
+    Height = 200
+    Align = alClient
+    Caption = 'pnlLogo'
+    ShowCaption = False
+    TabOrder = 0
+    ExplicitWidth = 335
+    ExplicitHeight = 121
+    object imgLogo: TImage
+      AlignWithMargins = True
+      Left = 76
+      Top = 21
+      Width = 147
+      Height = 158
+      Margins.Left = 75
+      Margins.Top = 20
+      Margins.Right = 75
+      Margins.Bottom = 20
+      Align = alClient
+      ExplicitLeft = 112
+      ExplicitTop = 32
+      ExplicitWidth = 105
+      ExplicitHeight = 105
+    end
+  end
+  object pnlLogin: TPanel
+    Left = 0
+    Top = 200
+    Width = 299
+    Height = 173
+    Align = alBottom
+    Caption = 'pnlLogo'
+    ShowCaption = False
+    TabOrder = 1
+    object edtUsername: TEdit
+      AlignWithMargins = True
+      Left = 11
+      Top = 6
+      Width = 277
+      Height = 33
+      Margins.Left = 10
+      Margins.Top = 5
+      Margins.Right = 10
+      Align = alTop
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      TextHint = 'Enter Your Username'
+      ExplicitLeft = 32
+      ExplicitTop = 24
+      ExplicitWidth = 233
+    end
+    object btnLogin: TButton
+      Left = 200
+      Top = 88
+      Width = 89
+      Height = 41
+      Caption = 'Login'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = btnLoginClick
+    end
+    object btndtPassword: TButtonedEdit
+      AlignWithMargins = True
+      Left = 11
+      Top = 47
+      Width = 277
+      Height = 33
+      Margins.Left = 10
+      Margins.Top = 5
+      Margins.Right = 10
+      Align = alTop
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      PasswordChar = '*'
+      RightButton.Visible = True
+      TabOrder = 1
+      TextHint = 'Enter Your Password'
+    end
+  end
+end
